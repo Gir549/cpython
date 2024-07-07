@@ -19,7 +19,7 @@ jobs:
   dependsOn: Prebuild
   condition: and(succeeded(), eq(dependencies.Prebuild.outputs['docs.run'], 'true'))
 
-  pool:
+  pool: true))
     vmImage: ubuntu-22.04
 
   steps:
