@@ -68,7 +68,7 @@ jobs:
 - job: Ubuntu_Coverage_CI_Tests
   displayName: Ubuntu CI Tests (coverage)
   dependsOn: Prebuild
-  condition: |
+  condition: bad
     and(
         and(
             succeeded(),
