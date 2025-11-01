@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Exhibition 2025 | Innovation & Creativity</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>School Exhibition 2025</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to Our School Exhibition</h1>
+            <p class="hero-subtitle">Celebrating Innovation, Creativity & Excellence</p>
+            <p class="hero-date">November 1-3, 2025</p>
+            <a href="#gallery" class="btn btn-primary">Explore Projects</a>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Our Exhibition</h2>
+            <p class="section-description">
+                Our annual school exhibition showcases the incredible talents and innovative projects 
+                created by our students throughout the year. From groundbreaking science experiments 
+                to stunning artistic creations, witness the future of innovation.
+            </p>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">150+</div>
+                    <div class="stat-label">Projects</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Students</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">4</div>
+                    <div class="stat-label">Categories</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">Days</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="section-title">Exhibition Categories</h2>
+            <div class="category-grid">
+                <div class="category-card" data-category="science">
+                    <div class="category-icon">🔬</div>
+                    <h3>Science</h3>
+                    <p>Innovative experiments and research projects exploring the wonders of science</p>
+                </div>
+                <div class="category-card" data-category="art">
+                    <div class="category-icon">🎨</div>
+                    <h3>Art</h3>
+                    <p>Creative expressions through paintings, sculptures, and digital art</p>
+                </div>
+                <div class="category-card" data-category="technology">
+                    <div class="category-icon">💻</div>
+                    <h3>Technology</h3>
+                    <p>Cutting-edge tech projects, robotics, and software innovations</p>
+                </div>
+                <div class="category-card" data-category="sports">
+                    <div class="category-icon">⚽</div>
+                    <h3>Sports</h3>
+                    <p>Athletic achievements, fitness innovations, and sports science</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Project Gallery</h2>
+            
+            <!-- Filter Buttons -->
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="science">Science</button>
+                <button class="filter-btn" data-filter="art">Art</button>
+                <button class="filter-btn" data-filter="technology">Technology</button>
+                <button class="filter-btn" data-filter="sports">Sports</button>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="gallery-grid">
+                <!-- Science Projects -->
+                <div class="gallery-item" data-category="science">
+                    <div class="gallery-image">
+                        <div class="placeholder-image science-bg">🔬</div>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Solar Energy System</h3>
+                        <p class="student-name">By Sarah Johnson</p>
+                        <p class="project-desc">Efficient solar panel design for home use</p>
+                        <button class="btn-view" data-project="1">View Details</button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="science">
+                    <div class="gallery-image">
+                        <div class="placeholder-image science-bg">🧪</div>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Water Purification</h3>
+                        <p class="student-name">By Michael Chen</p>
+                        <p class="project-desc">Low-cost water filtration system</p>
+                        <button class="btn-view" data-project="2">View Details</button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="science">
+                    <div class="gallery-image">
+                        <div class="placeholder-image science-bg">🌱</div>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Plant Growth Study</h3>
+                        <p class="student-name">By Emma Davis</p>
+                        <p class="project-desc">Effects of music on plant growth</p>
+                        <button class="btn-view" data-project="3">View Details</button>
+                    </div>
+                </div>
+
+                <!-- Art Projects -->
+                <div class="gallery-item" data-category="art">
+                    <div class="gallery-image">
+                        <div class="placeholder-image art-bg">🎨</div>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Abstract Expressions</h3>
+                        <p class="student-name">By Olivia Martinez</p>
+                        <p class="project-desc">Mixed media contemporary art collection</p>
+                        <button class="btn-view" data-project="4">View Details</button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="art">
+                    <div class="gallery-image">
+                        <div class="placeholder-image art-bg">🖼️</div>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Digital Portraits</h3>
+                        <p class="student-name">By James Wilson</p>
+                        <p class="project-desc">Modern digital art techniques</p>
+                        <button class="btn-view" data-project="5">View Details</button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="art">
+                    <div class="gallery-image">
+                        <div class="placeholder-image art-bg">🗿</div>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Sculpture Garden</h3>
+                        <p class="student-name">By Sophia Anderson</p>
+                        <p class="project-desc">Clay and metal sculptures</p>
+                        <button class="btn-view" data-project="6">View Details</button>
+                    </div>
+                </div>
+
+                <!-- Technology Projects -->
+                <div class="gallery-item" data-category="technology">
+                    <div class="gallery-image">
+                        <div class="placeholder-image tech-bg">🤖</div>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>AI Assistant Bot</h3>
+                        <p class="student-name">By David Lee</p>
+                        <p class="project-desc">Voice-controlled smart assistant</p>
+                        <button class="btn-view" data-project="7">View Details</button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="technology">
+                    <div class="gallery-image">
+                        <div class="placeholder-image tech-bg">📱</div>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Mobile Learning App</h3>
+                        <p class="student-name">By Ava Thompson</p>
+                        <p class="project-desc">Educational app for students</p>
+                        <button class="btn-view" data-project="8">View Details</button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="technology">
+                    <div class="gallery-image">
+                        <div class="placeholder-image tech-bg">🚗</div>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Autonomous Vehicle</h3>
+                        <p class="student-name">By Ryan Garcia</p>
+                        <p class="project-desc">Self-driving car prototype</p>
+                        <button class="btn-view" data-project="9">View Details</button>
+                    </div>
+                </div>
+
+                <!-- Sports Projects -->
+                <div class="gallery-item" data-category="sports">
+                    <div class="gallery-image">
+                        <div class="placeholder-image sports-bg">⚽</div>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Performance Analytics</h3>
+                        <p class="student-name">By Lucas Brown</p>
+                        <p class="project-desc">Sports performance tracking system</p>
+                        <button class="btn-view" data-project="10">View Details</button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="sports">
+                    <div class="gallery-image">
+                        <div class="placeholder-image sports-bg">🏃</div>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Fitness Tracker</h3>
+                        <p class="student-name">By Mia Rodriguez</p>
+                        <p class="project-desc">Wearable fitness monitoring device</p>
+                        <button class="btn-view" data-project="11">View Details</button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="sports">
+                    <div class="gallery-image">
+                        <div class="placeholder-image sports-bg">🏀</div>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Basketball Training</h3>
+                        <p class="student-name">By Ethan White</p>
+                        <p class="project-desc">AI-powered training program</p>
+                        <button class="btn-view" data-project="12">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Visit Us</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Exhibition Details</h3>
+                    <div class="info-item">
+                        <strong>📅 Dates:</strong>
+                        <p>November 1-3, 2025</p>
+                    </div>
+                    <div class="info-item">
+                        <strong>🕐 Timing:</strong>
+                        <p>9:00 AM - 5:00 PM</p>
+                    </div>
+                    <div class="info-item">
+                        <strong>📍 Location:</strong>
+                        <p>Main School Auditorium<br>123 Education Street</p>
+                    </div>
+                    <div class="info-item">
+                        <strong>📧 Contact:</strong>
+                        <p>exhibition@school.edu</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Get Information</h3>
+                    <form id="contactForm">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" rows="4" required></textarea>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 School Exhibition. All rights reserved.</p>
+            <p>Celebrating Student Innovation & Creativity</p>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div class="modal-body">
+                <h2 id="modalTitle"></h2>
+                <p id="modalStudent"></p>
+                <div id="modalImage"></div>
+                <p id="modalDescription"></p>
+                <div id="modalDetails"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
